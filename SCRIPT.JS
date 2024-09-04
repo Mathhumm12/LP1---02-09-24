@@ -18,13 +18,23 @@ console.log(Math.max(7, 45, 89, 2, 125))
 let numeroAleatorio = Math.random()
 console.log(numeroAleatorio)
 
-const numeroC = prompt('Digite o número')
-const numeroB = prompt('Digite outro número')
 
-let resultado = ((numeroC + numeroB)/2)
-let normal = console.log(Math.round(resultado))
-let baixo = console.log(Math.floor(resultado))
-let cima = console.log(Math.ceil(resultado))
 
-alert(`sua média arredondada normal é ${normal}. sume média arredondada para baixo é ${baixo} sua média arredondada para cima é ${cima}`)
 
+//const base = prompt("Digite a base da potência")
+//const expoente = prompt("Digite o expoente")
+
+//let resultado = Math.pow(base, expoente)
+//window.alert(`O resultado da potenciação é ${resultado}`)
+
+
+const numero1 = prompt("Digite um número")
+const numero2 = prompt("Digite um número")
+const numero3 = prompt("Digite um número")
+const numero4 = prompt("Digite um número")
+ 
+//Mostra o maios e o manor número
+let menor = (Math.min(numero1, numero2, numero3, numero4))
+let maior = (Math.max(numero1, numero2, numero3, numero4))
+ 
+alert(`O maior número é ${maior} e o menor número é ${menor}`)
